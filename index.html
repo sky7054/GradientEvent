@@ -53,7 +53,8 @@
         btn2.addEventListener("click",handleButton2);
 
         copyDiv.addEventListener("click",()=>{
-            navigator.clipboard.write(copyDiv.innerText);
+            navigator.clipboard.writeText(copyDiv.innerText);
+            alert("Your code has been copied successfully");
         })
 
     </script>
